@@ -1,4 +1,4 @@
-##Movie colors
+## Movie colors
 ---
 *A tool to analyze the color palettes used in movies.*
 Movie colors is a CLI tool to allow you to visualize the color palettes used in movies.
@@ -7,7 +7,7 @@ Using OpenCV, the script selects a regular number of frames from a given video. 
 
 Some samples of these images can be found in `samples/`.
 
-###Usage
+### Usage
 ---
 
 Params:  
