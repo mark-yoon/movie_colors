@@ -12,10 +12,10 @@ DEFAULT_HEIGHT = 400
 DEFAULT_BUCKETS = 3
 
 @click.command()
-@click.option('--path', help='File path for file or dir of videos to be processed.')
+@click.option('--path', help='File path for file or dir of videos to be processed')
 @click.option('--width', default=DEFAULT_WIDTH, help='Width of desired output image')
 @click.option('--height', default=DEFAULT_HEIGHT, help='Height of desired output image')
-@click.option('--buckets', default=DEFAULT_BUCKETS, help='Number of top colors to track')
+@click.option('--buckets', default=DEFAULT_BUCKETS, help='Number of top colors per frame')
 def process_query(path, width, height, buckets):
     if os.path.isfile(path):
         files = [path]
@@ -34,7 +34,7 @@ def process_video(video_path, width, height, buckets):
     total_frame_count = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
     divisor = int(total_frame_count / (width - (PADDING * 2)))
     graph = np.full((height, width+100, 3), 255, dtype=np.uint8)
-    for i in tqdm.tqdm(range(width - (PADDING * 2))):
+    for i in tqdm.tqdm(range(width - (PADDING))):
         video.set(cv2.CAP_PROP_POS_FRAMES, i * divisor - 1)
         res, frame = video.read()
         if res:

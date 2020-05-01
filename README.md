@@ -1,4 +1,4 @@
-## Movie colors
+# Movie colors
 *A tool to analyze the color palettes used in movies.*
 Movie colors is a CLI tool to allow you to visualize the color palettes used in movies.
 
