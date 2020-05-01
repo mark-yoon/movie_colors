@@ -38,11 +38,9 @@ def process_video(video_path, width, height, buckets):
         video.set(cv2.CAP_PROP_POS_FRAMES, i * divisor - 1)
         res, frame = video.read()
         if res:
-            # change colorspace
+            frame = cv2.resize(frame, (480, 360))
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            # reshape frame
             frame = frame.reshape((frame.shape[0] * frame.shape[1], 3))
-            # get clusters and centroids
             cluster = KMeans(n_clusters=3).fit(frame)
             centroids = cluster.cluster_centers_
 
