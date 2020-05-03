@@ -1,5 +1,5 @@
 # Movie colors
-*A tool to analyze the color palettes used in movies.*
+*A tool to analyze the color palettes used in movies.*  
 Movie colors is a CLI tool to allow you to visualize the color palettes used in movies.
 
 Using OpenCV, the script selects a regular number of frames from a given video. For each frame, the top three most prevelant colors are found using k-means clustering. These colors are then drawn on an output image sorted by most to least common.
