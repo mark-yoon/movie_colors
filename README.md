@@ -35,6 +35,8 @@ Params:
 #### Batman 2012
 ![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/batman/processed_batman_2012.jpg)
 
+---
+
 #### Superman 1978
 ![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/superman/processed_superman_1978.jpg)
 
@@ -52,3 +54,36 @@ Params:
 
 #### Superman 2013
 ![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/superman/processed_superman_2013.jpg)
+
+---
+
+##### Harry Potter 1
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP1.jpg)
+
+
+##### Harry Potter 2
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP2.jpg)
+
+
+##### Harry Potter 3
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP3.jpg)
+
+
+##### Harry Potter 4
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP4.jpg)
+
+
+##### Harry Potter 5
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP5.jpg)
+
+
+##### Harry Potter 6
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP6.jpg)
+
+
+##### Harry Potter 7
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP7.jpg)
+
+
+##### Harry Potter 8
+![](https://raw.githubusercontent.com/mark-yoon/movie_colors/master/samples/harry_potter/processed_HP8.jpg)
