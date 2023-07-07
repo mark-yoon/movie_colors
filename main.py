@@ -20,7 +20,7 @@ def process_query(path, width, height, buckets):
     if os.path.isfile(path):
         files = [path]
     else:
-        files = [path + f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+        files = [path + '/' + f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
 
     for video in files:
         process_video(video, int(width), int(height), int(buckets))
